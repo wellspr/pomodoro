@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+
+    &__title {
+        &__text {
+            font-size: 2rem;
+        }
+    }
+
+    &__menu {
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+            &__item {
+                font-size: 1.4rem;
+                margin: 0 5px;
+
+                a {
+                    color: beige;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: rgba(beige, 0.8);
+                        text-decoration: underline;
+                        text-decoration-color: rgba(beige, 0.8);
+                    }
+                }
+            }
+        }
+    }
+}

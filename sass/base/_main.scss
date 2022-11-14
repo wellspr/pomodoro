@@ -1,0 +1,23 @@
+html {
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: tomato;
+    color: beige;
+    box-sizing: border-box;
+}
+
+#__next {
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 1rem;
+}
